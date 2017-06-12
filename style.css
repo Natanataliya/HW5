@@ -1,0 +1,52 @@
+  *{
+  	margin: 0;
+  	padding: 0;
+  	
+  } 
+.main_board {
+	width: 560px;
+	height: 447px;
+	background: #80cdc6;
+	position: relative;
+	background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 0% 25%;
+    border: 10px ;
+    margin: 5px;
+
+}
+.sky {
+	display: block;
+	max-width: 70%;
+	top: 0;
+	left: 169px;
+	position: absolute;
+	
+}
+
+
+.water {
+	display: block;
+	max-width: 100%;
+	bottom: 0;
+	position: absolute;
+	z-index: 3;
+	
+	
+}
+.ship {
+	display: block;
+	max-width: 21%;
+	top: 292px;
+	left: 16px;
+	position: absolute;
+	z-index: 2;
+	
+}
+.mountain {
+    display: block;
+	max-width: 100%;
+	top: 105px;
+	position: absolute;
+	z-index: 1;
+	}
